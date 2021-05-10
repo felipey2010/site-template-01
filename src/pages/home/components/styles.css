@@ -1,0 +1,54 @@
+* {
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+.icon-card {
+  height: 50px;
+  transition: 0.3s;
+}
+
+.mini-card span {
+  margin-left: 16px;
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.mini-card {
+  background-color: white;
+  padding: 8px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: backgroud-color 0.3s;
+}
+
+.mini-card:hover {
+  background-color: var(--hover-color-grey);
+  box-shadow: 0px 0px 3px black;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.first-card {
+  border-top: 8px solid var(--color-blue);
+}
+
+.second-card {
+  border-top: 8px solid var(--color-orange);
+}
+
+.third-card {
+  border-top: 8px solid var(--color-green);
+}
+
+.fourth-card {
+  border-top: 8px solid var(--color-yellow);
+}
